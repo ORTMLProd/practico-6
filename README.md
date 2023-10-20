@@ -3,7 +3,7 @@
 
 - Fastapi 
 - TF Serving
-- Elastic Container Registri  
+- Elastic Container Registry  
 - Sagemaker Endpoints 
   - model
   - model-cfg
