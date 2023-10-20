@@ -39,7 +39,7 @@ Soporte integrado para pruebas unitarias basadas en PyTest.
 
 **Dockerizar la aplicación:** Este paso involucra la creación de un Dockerfile y la construcción de una imagen Docker.
 
-**Desplegar en Azure:** Finalmente, deberás cargar tu imagen Docker en un registro de contenedores y desplegarla en Azure.
+**Desplegar en AWS:** Finalmente, deberás cargar tu imagen Docker en un registro de contenedores y desplegarla en AWS.
 
 
 Paso 1: Crear una API usando FastAPI
