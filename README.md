@@ -3,7 +3,7 @@
 
 - Fastapi 
 - TF Serving
-- Elastic Container Registry  
+- Elastic Container Registry 
 - Sagemaker Endpoints 
   - model
   - model-cfg
@@ -56,6 +56,7 @@ docker build -t model-keras:latest .
 MAC:docker build --platform linux/arm64/v8 -t model-keras:latest .
 
 #### Probar el modelo en local
+
 Corremos la imagen: docker run -d -p 8080:80 model-keras:latest
 
 Para eso creamos la notebook test.ipynb para usar la libreria request.

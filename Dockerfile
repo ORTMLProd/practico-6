@@ -22,8 +22,9 @@ WORKDIR /app
 # Instalar las dependencias y las versiones específicas de TensorFlow y Keras
 RUN pip3 install -r requirements.txt
 
-# Exponer el puerto 80
-EXPOSE 80
+# Exponer puerto
+EXPOSE 8080
 
-# Comando para iniciar la aplicación
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+# Entrypoint y comando
+ENTRYPOINT ["python3", "main.py"]
+CMD ["serve"]
