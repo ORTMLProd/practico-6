@@ -4,6 +4,5 @@ fastapi
 uvicorn
 typing-extensions
 pydantic
-tensorflow==2.16.1
-keras==2.10.0
+tensorflow==2.13.1
 python-multipart
