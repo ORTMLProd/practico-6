@@ -12,7 +12,7 @@ print('STARTING APP')
 app = FastAPI()
 
 try:
-    model = load_model('/Users/matiassorozabal/Documents/ORT-ml-en-produccion/2023 - semestre 2 /practico-6/model.h5')
+    model = load_model('model.h5')
 except Exception as e:
     print(f"Error loading model: {e}")
     model = None
