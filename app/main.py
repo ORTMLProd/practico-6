@@ -1,11 +1,12 @@
 from fastapi import FastAPI, HTTPException, Request
 from fastapi import File, UploadFile
-from keras.preprocessing import image
-from keras.models import load_model
 import numpy as np
 from PIL import Image
 import uvicorn
 import io
+import logging
+import tensorflow as tf
+from tensorflow.keras.models import load_model
 
 print('STARTING APP')
 
